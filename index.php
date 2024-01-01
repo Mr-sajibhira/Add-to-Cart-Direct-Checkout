@@ -1,3 +1,4 @@
+<?php
 
 add_filter('add_to_cart_redirect', 'lw_add_to_cart_redirect');
 function lw_add_to_cart_redirect() {
@@ -13,3 +14,6 @@ add_filter( 'woocommerce_product_add_to_cart_text', 'lw_cart_btn_text' );
 function lw_cart_btn_text() {
  return __( 'Buy Now!', 'woocommerce' );
 }
+
+
+?>
